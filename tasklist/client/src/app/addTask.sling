@@ -19,7 +19,7 @@ ui LayerWidget
 {
 	
 	CanvasWidget {
-		color = Color.instance("#f0f8ff")
+		color = Color.instance("#FFA07A")
 		
 	}
 	VerticalScrollerWidget {
@@ -79,10 +79,10 @@ func initializeWidget override
     var returnbtn = ButtonWidget.forText(context, "Check Tasklist Data", func{
 		 NavigationWidget.switchToContainer(this, new TaskList(context))
 	})
-   	confirmbtn.setWidgetBackgroundColor(Color.instance("#FF1493"))
+   	confirmbtn.setWidgetBackgroundColor(Color.instance("#2E86C1"))
 	confirmbtn.setWidgetTextColor(Color.white())
 	confirmbtn.setWidgetFontSize(context.getHeightValue("4mm"))
-	returnbtn.setWidgetBackgroundColor(Color.instance("#C71585"))
+	returnbtn.setWidgetBackgroundColor(Color.instance("#2ECC71 "))
 	returnbtn.setWidgetTextColor(Color.white())
 	returnbtn.setWidgetFontSize(context.getHeightValue("4mm"))
 	
