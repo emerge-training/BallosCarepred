@@ -79,11 +79,11 @@ func initializeWidget override
     var returnbtn = ButtonWidget.forText(context, "Back to Main", func{
 		 NavigationWidget.switchToContainer(this, new menuNote(context))
 	})
-   	confirmbtn.setWidgetBackgroundColor(Color.instance("#FF1493"))
-	confirmbtn.setWidgetTextColor(Color.white())
+   	confirmbtn.setWidgetBackgroundColor(Color.instance("#48C9B0"))
+	confirmbtn.setWidgetTextColor(Color.black())
 	confirmbtn.setWidgetFontSize(context.getHeightValue("4mm"))
-	returnbtn.setWidgetBackgroundColor(Color.instance("#C71585"))
-	returnbtn.setWidgetTextColor(Color.white())
+	returnbtn.setWidgetBackgroundColor(Color.instance("#E8DAEF"))
+	returnbtn.setWidgetTextColor(Color.black())
 	returnbtn.setWidgetFontSize(context.getHeightValue("4mm"))
 	
 	

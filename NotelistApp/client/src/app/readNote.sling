@@ -8,7 +8,7 @@ class #widget:
 ui LayerWidget
 {
 	CanvasWidget {
-		color = Color.instance("#EBDEF0")
+		color = Color.instance("#BDC3C7")
 	}
 	VerticalScrollerWidget {
 		AlignWidget {
@@ -29,8 +29,8 @@ ui LayerWidget
 				}
 				ButtonWidget toDashboard {
 					text = "Back to Main"
-					textColor = Color.white()
-					backgroundColor = Color.instance("#C71585")
+					textColor = Color.black()
+					backgroundColor = Color.instance("#8E44AD")
 					fontSize = context.getHeightValue("4mm")
 					clickHandler = func {
 						NavigationWidget.switchToContainer(this, new menuNote(context))

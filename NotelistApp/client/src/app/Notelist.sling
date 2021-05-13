@@ -7,7 +7,7 @@ ui LayerWidget
     VerticalScrollerWidget {
         scrollBarDisabled = true
         LayerWithBackgroundColorWidget container {
-            color = Color.white()
+            color = Color.black()
             VerticalBoxWidget list {
                 margin = context.getHeightValue("5mm")
                 spacing = context.getHeightValue("5mm")

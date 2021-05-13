@@ -81,14 +81,14 @@ func initializeWidget override
 	})	
 
 	
-	deleted.setWidgetBackgroundColor(Color.instance("#7D0552"))
-	deleted.setWidgetTextColor(Color.white())
+	deleted.setWidgetBackgroundColor(Color.instance("#D5F5E3"))
+	deleted.setWidgetTextColor(Color.black())
 	deleted.setWidgetFontSize(context.getHeightValue("4mm"))
 	vbox.addWidget(deleted) 
 
 
-	menu.setWidgetBackgroundColor(Color.instance("#C71585"))
-	menu.setWidgetTextColor(Color.white())
+	menu.setWidgetBackgroundColor(Color.instance("#F7DC6F"))
+	menu.setWidgetTextColor(Color.black())
 	menu.setWidgetFontSize(context.getHeightValue("4mm"))
 	vbox.addWidget(menu)
 

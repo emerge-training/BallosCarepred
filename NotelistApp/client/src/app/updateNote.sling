@@ -14,7 +14,7 @@ model Note
 ui LayerWidget
 {
 	CanvasWidget {
-		color = Color.instance("#EBDEF0")
+		color = Color.instance("##40E0D0")
 	}
 	VerticalScrollerWidget {
 		AlignWidget {
@@ -118,19 +118,19 @@ func initializeWidget override
 	    NavigationWidget.switchToContainer(this, new menuNote(context))
 	})	
 
-	searchbtn.setWidgetBackgroundColor(Color.instance("#FC6C85"))
-	searchbtn.setWidgetTextColor(Color.white())
+	searchbtn.setWidgetBackgroundColor(Color.instance("#6495ED"))
+	searchbtn.setWidgetTextColor(Color.black())
 	searchbtn.setWidgetFontSize(context.getHeightValue("4mm"))
 	vbox.addWidget(searchbtn)
 
 	updated.setWidgetBackgroundColor(Color.instance("#F6358A"))
-	updated.setWidgetTextColor(Color.white())
+	updated.setWidgetTextColor(Color.black())
 	updated.setWidgetFontSize(context.getHeightValue("4mm"))
 	vbox.addWidget(updated)
 
 
-	menu.setWidgetBackgroundColor(Color.instance("#C71585"))
-	menu.setWidgetTextColor(Color.white())
+	menu.setWidgetBackgroundColor(Color.instance("#9FE2BF"))
+	menu.setWidgetTextColor(Color.black())
 	menu.setWidgetFontSize(context.getHeightValue("4mm"))
 	vbox.addWidget(menu)
 
